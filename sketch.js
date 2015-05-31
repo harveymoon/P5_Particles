@@ -10,13 +10,13 @@ var numParticles = 125;
 var mouse ;
 
 
-var imgBg;
+// var imgBg;
 //var d = pixelDensity;
 
 var count = 0;
 
 function preload() {
-	imgBg = loadImage("city-skyline-silhouette.jpg");
+	//imgBg = loadImage("city-skyline-silhouette.jpg");
 }
 
 
@@ -63,7 +63,7 @@ fill(sin(count/255)*255,cos(count/255)*200,125+count%255);
 
 
 background(255,50);
-imgBg.loadPixels();
+//imgBg.loadPixels();
 
 for(var i = 0; i < particles.length; i++){
 
